@@ -1,0 +1,26 @@
+# virtual env
+.venv/
+
+# Python outputs
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.pyd
+
+# model checkpoints
+**/checkpoints/
+*.pt
+*.pth
+
+# data
+data/
+
+# logs and outputs
+*.log
+*.tmp
+*.out
+
+# system files
+.DS_Store
+Thumbs.db
