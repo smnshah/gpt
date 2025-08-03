@@ -14,7 +14,7 @@ __pycache__/
 *.pth
 
 # data
-data/
+training_data/
 
 # logs and outputs
 *.log
@@ -24,3 +24,6 @@ data/
 # system files
 .DS_Store
 Thumbs.db
+
+# test coverage
+.coverage

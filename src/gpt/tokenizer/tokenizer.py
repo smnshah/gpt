@@ -1,7 +1,10 @@
 class Tokenizer:
     def __init__(self, text: str):
         unique_chars = sorted(set(text))
+
+        # stoi: string to integer
         self.stoi = {ch: i for i, ch in enumerate(unique_chars)}
+        # itos: integer to string
         self.itos = {i: ch for ch, i in self.stoi.items()}
         self.vocab_size = len(self.stoi)
 
