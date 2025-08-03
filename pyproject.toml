@@ -30,6 +30,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.coverage.run]
 source = ["src/gpt"]
+omit = ["*/gpt/config/*"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
